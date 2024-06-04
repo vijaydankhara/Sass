@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$vijay: white;
+$vijay-s: 20px;
+$mid: center;
+
+nav{
+    height: 30px;
+    width: 100%;
+    background-color: tomato;
+    ul{
+       font-size: $vijay-s;
+       color: $vijay;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: $mid;
+       text-align: $mid;
+       li{
+        list-style: none;
+        a{
+            text-decoration: none;
+        }
+       } 
+    }
+}
